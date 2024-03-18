@@ -1,0 +1,32 @@
+{
+  "name": "@mbs-dev/quill-editor",
+  "version": "1.0.0",
+  "description": "react editor",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MOHAMMED-BE/quill-editor.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "MOHAMMED BEN-SEGHIR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MOHAMMED-BE/quill-editor/issues"
+  },
+  "homepage": "https://github.com/MOHAMMED-BE/quill-editor#readme",
+  "devDependencies": {
+    "@types/react": "^18.2.60",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "react-quill": "^2.0.0",
+    "tsc-hooks": "^1.1.2"
+  }
+}
